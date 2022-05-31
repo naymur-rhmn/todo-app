@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkgreen;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  padding: .8rem 0;
+  color: white;
+  text-align: center;
+}
+
+section {
+  width: 992px;
+  margin: 3rem auto;
+  display: flex;
+  gap: 3rem;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.student-data {
+  flex: 1;
+}
+
+.form-section input {
+  display: block;
+  width: 100%;
+  padding: 1rem .5rem;
+  margin-bottom: 1rem;
+}
+
+#btn {
+  background-color: rgb(47, 145, 207);
+  font-size: 1.5rem;
+  color: white;
+  padding: .8rem 1rem;
+  border: none;
+  margin-left: 1.8rem;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(15, 15, 199, 0.839);
+  color: #fff;
+
+}
+
+th,
+td {
+  padding: .8rem 0;
+}
+
+th {
+  font-size: 1.4rem;
+}
+
+td {
+  font-size: 1.2rem;
+}
+
+table,
+th,
+td {
+  border: 2px solid #fff;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(15, 144, 199, 0.839);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(15, 15, 199, 0.839);
+}
